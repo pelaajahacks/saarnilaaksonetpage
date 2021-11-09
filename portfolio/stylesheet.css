@@ -1,0 +1,123 @@
+html, body {
+    background-color: #313131;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.Ruutu {
+    height: 100px;
+    width: 120px;
+
+    display: table;
+
+
+    background-color: white;
+}
+
+.Ruutu p {
+    height: 100%;
+    display: table-cell;
+    font-family: "Ceviche One";
+    font-size: 100px;
+    text-align: center;
+    vertical-align: middle;
+
+    
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #212121;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: wheat;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Ceviche One', cursive;
+    font-size: 32px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    display: table;
+}
+
+.navigation a:last-child {
+    padding-right: 1;
+}
+
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: "Ceviche One";
+    font-size: 32px;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 100px;
+    display: table;
+}
+
+.footer {
+    background-color: #212121;
+    position: relative;
+    height: 100px;
+    clear: both;
+
+    
+}
+
+.trademark{
+    display: table;
+
+    height: 100%;
+    width: 210px;
+    float: left;
+}
+
+#footertext {
+    font-family: "Ceviche One";
+    font-size: 30;
+    color: whitesmoke;
+
+}
+
+.images  {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: table-cell;
+}
